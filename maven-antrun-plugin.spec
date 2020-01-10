@@ -1,6 +1,6 @@
 Name:           maven-antrun-plugin
 Version:        1.7
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Maven AntRun Plugin
 
 Group:          Development/Libraries
@@ -56,6 +56,9 @@ API documentation for %{name}.
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.7-8
+- Mass rebuild 2013-12-27
+
 * Fri Aug 23 2013 Michal Srb <msrb@redhat.com> - 1.7-7
 - Migrate away from mvn-rpmbuild (Resolves: #997495)
 
